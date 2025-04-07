@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🚀 Capstone Projects in React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains multiple React.js mini-projects built while learning from [Scrimba's Learn React Course](https://scrimba.com/learn/learnreact). Each project demonstrates core React concepts including props, components, state, and conditional rendering.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📦 How to Setup & Run the Project Locally
 
-### `npm start`
+Follow these steps to install and run the project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1️⃣ Clone the Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/your-username/Capstone-Projects.git
+cd Capstone-Projects
 
-### `npm test`
+### 2️⃣ Install Dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3️⃣ Start the Development Server
+npm start
 
-### `npm run build`
+### The app will run on: http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📸 Project Pages & Screenshots
+Below are the key pages of this capstone project, including their routes and what I learned building them.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📍 First Page – Props in React
+Route: /firstpage
+This page was built using props, which allow data to be passed from parent to child components. It's part of the Data-Driven section in the course and helped me understand how to make reusable components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/user-attachments/assets/9dda5bd6-e349-4ada-bbad-5b7e02bbc192)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📍 Second Page – Static Components
+Route: /secondpage
+This is a static page created using simple JS components without dynamic data. It's from the Static Pages section in the course and helped me grasp React structure and JS basics.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/user-attachments/assets/e57e5e62-9d02-4a98-8c61-82ac6ce60b1e)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📍 Third Page – Travel Journal (Data-Driven)
+Route: /thirdpage
+This page shows a Travel Journal project using component-based architecture with props and mapping over data arrays. It's a continuation of the Data-Driven concepts and focuses on building UI from data.
 
-## Learn More
+![image](https://github.com/user-attachments/assets/9f9c3304-8de6-4ef6-926e-e36fd11cad09)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎮 Tenzies Game – Capstone Project #1
+Route: /tenzies
+The Tenzies Game is a complete mini-game where I implemented state, conditional rendering, and effects. It's part of Capstone Project #1 and taught me how to handle user interaction and game logic in React.
 
-### Code Splitting
+![image](https://github.com/user-attachments/assets/f2fd6071-0c6f-4d7b-8a21-929062664f73)
+![image](https://github.com/user-attachments/assets/f56c3373-8146-4f3b-bfef-b26193bec6c4)
+![image](https://github.com/user-attachments/assets/a8c4d850-be5e-4671-9d72-62d62577bcdf)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
