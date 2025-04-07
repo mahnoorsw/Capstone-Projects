@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import FirstPage from './firstpage';
+import SecondPage from './secondpage';
+import ThirdPage from './thirdpage';
+import Tenzies from './Tenzies';
+import BodyClassSetter from './components/BodyClassSetter';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <BodyClassSetter />  {/* This component dynamically sets the body class */}
+            <Routes>
+                <Route path="/firstpage" element={<FirstPage />} />
+                <Route path="/secondpage" element={<SecondPage />} />
+                <Route path="/thirdpage" element={<ThirdPage />} />
+                <Route path="/tenzies" element={<Tenzies />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
