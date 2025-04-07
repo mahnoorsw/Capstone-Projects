@@ -10,15 +10,14 @@ Follow these steps to install and run the project:
 
 ### 1️⃣ Clone the Repository
 
-```bash
-git clone https://github.com/your-username/Capstone-Projects.git
-cd Capstone-Projects
+#### git clone https://github.com/your-username/Capstone-Projects.git
+    cd Capstone-Projects
 
 ### 2️⃣ Install Dependencies
-npm install
+    npm install
 
 ### 3️⃣ Start the Development Server
-npm start
+    npm start
 
 ### The app will run on: http://localhost:3000
 
